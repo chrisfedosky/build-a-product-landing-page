@@ -5,3 +5,11 @@ header {
     display: flex;
     justify-content: flex-start;
 }
+nav {
+    position: fixed;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        color: red;
+}
